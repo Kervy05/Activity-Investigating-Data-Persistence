@@ -35,7 +35,6 @@ class _TaskPageState extends State<TaskPage> {
   final TextEditingController taskController =
       TextEditingController();
 
-  // Tasks are stored only in memory.
   final List<String> tasks = [];
 
   void addTask() {
